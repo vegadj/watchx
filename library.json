@@ -9,7 +9,7 @@
     {
       "name": "Gokhan",
       "email": "g@gokhanselamet.com",
-      "url": "https://github.com/**Fill**",
+      "url": "https://github.com/vegadj",
       "maintainer": true
     },
     {
@@ -21,6 +21,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/**Fill**"
+    "url": "https://github.com/vegadj/watchx"
   }
 }

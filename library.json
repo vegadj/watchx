@@ -1,0 +1,26 @@
+{
+  "name": "WatchX",
+  "version": "0.1.0",
+  "frameworks": "arduino",
+  "platforms" : "atmelavr",
+  "keywords": "watchX, pin, ",
+  "description": "watchX device pin assignments and basic functions for homosapiens",
+  "authors": [
+    {
+      "name": "Gokhan",
+      "email": "g@gokhanselamet.com",
+      "url": "https://github.com/**Fill**",
+      "maintainer": true
+    },
+    {
+      "name": "argeX Offical",
+      "email": "info@argex.io",
+      "url": "https://github.com/**Fill**",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/**Fill**"
+  }
+}

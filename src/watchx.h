@@ -21,7 +21,9 @@
 //BLUETOOTH
 #define BLUEFRUIT_SPI_CS A2
 #define BLUEFRUIT_SPI_IRQ 0
-#define BLUEFRUIT_SPI_RST A1 
+#define BLUEFRUIT_SPI_RST A1
+
+//BMP
 
 //CHARGE
 #define CHARGESTATUS 5
@@ -31,19 +33,20 @@
 #define _VDR2 10000.0
 #define BATTERY_POWER 4
 #define BATTERY_READ A11
-extern const float _VDIVIDER PROGMEM;
+extern const float _VDIVIDER;
 
 // PROTOTYPES
 inline void setup_buttons();
 inline void setup_leds();
 void setup_watchx();
 
-float get_batteryPercentance();
+int get_batteryPercentance();
 float get_batteryVoltage();
 unsigned int get_batteryRaw();
 
 bool get_usbStatus();
 bool get_chargeStatus(); 
 
+// DATAs
 extern const unsigned char PROGMEM logoWatchX [];
 #endif

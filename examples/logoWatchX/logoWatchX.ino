@@ -16,7 +16,7 @@ void setup() {
   setup_watchx();
   display.begin(SSD1306_SWITCHCAPVCC); // init oled 
   display.clearDisplay(); // clear display buffer
-  display.drawBitmap(0, 11, logoWatchX, 128, 39, 1); // buffer wathcX logo bitmap into oled
+  display.drawBitmap(0, 21, logoWatchX, 128, 29, 1); // buffer wathcX logo bitmap into oled
   display.display(); // show new buffer
 }
 

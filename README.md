@@ -1,6 +1,6 @@
 # WatchX 
 
-Programable smart watch powered by arduino. [Official Site](https://www.watchx.io)
+Programable smart watch powered by arduino. [Official Site](http://www.watchx.io)
 
 ## Usage
 

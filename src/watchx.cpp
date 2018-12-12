@@ -46,10 +46,10 @@ int get_batteryPercentance() {
   int i;
   int vraw = get_batteryRaw();
   for (i=0; i<20; i+=1) {
-      Serial.println(i);
-      Serial.println(vraw);
-      Serial.println(_batteryPercentance[i]);
-      Serial.println();
+      //Serial.println(i);
+      //Serial.println(vraw);
+      //Serial.println(_batteryPercentance[i]);
+      //Serial.println();
       if (vraw <= pgm_read_word_near(&_batteryPercentance[i])) break;
      
   }
